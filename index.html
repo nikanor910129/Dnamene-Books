@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--head starts from here-->
+<head>
+<title>DNamene Ebooks here you find many e-books</title>
+	
+<!--metadata-->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="ebooks">
+<meta name="keywords" content="ebooks, programming,hacking">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="author" content="Sumit Patidar">
+     	
+     	
+<!--stylesheets-->     	
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+   
+
+<!-- MAIN CSS STYLESHEET-->
+<link rel="stylesheet" href="css/style.css">
+
+
+<!--script for showing real time-->
+<script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+ var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('time').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+
+
+<!--scroll to top button-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" >var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow27.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+
+
+<style>
+marquee{
+				height:5px;
+    max-width:1024px;
+    background:#29ca8e;
+    padding:20px;
+    margin:auto;
+    border-radius:10px;
+    box-shadow:20px 20px 50px gray;
+    font-size:18px;
+    font-family: sans-serif;
+    font-weight: 300;
+    }
+</style>
+
+</head>
+<!--head ends here-->
+
+
+
+<!--body starts from here-->
+<body onload="startTime()">
+
+<!-- PRE LOADER -->
+<section class="preloader">
+<div class="spinner">
+<span class="spinner-rotate"></span>
+</div>
+</section>
+
+
+<!-- MENU SECTION STARTS HERE -->
+<section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+<div class="container">
+
+<div class="navbar-header">
+<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon icon-bar"></span>
+<span class="icon icon-bar"></span>
+<span class="icon icon-bar"></span>
+</button>
+<!-- lOGO TEXT HERE -->
+<a href="index.html" class="navbar-brand">DNamene Ebooks</a>
+</div>
+
+
+<!-- MENU LINKS -->
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+
+<li><a href="#home" class="smoothScroll">Home</a></li>
+
+<li><a href="#feature" class="smoothScroll">Ebooks</a></li>
+
+<li><a href="#about" class="smoothScroll">About us</a></li>
+
+<li><a href="#extra" class="smoothScroll">Extra brands</a></li>
+
+<li><a href="#contact" class="smoothScroll">Contact</a></li>
+</ul>
+
+</div>
+</div>
+</section>
+<!--menu section ends here-->
+
+
+<!-- FEATURE 1 -->
+<section id="home" data-stellar-background-ratio="0.5">
+
+<div class="overlay"></div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-offset-3 col-md-6 col-sm-12">
+
+<div class="home-info">
+<!--Realtime displayed here -->
+<strong><font color="#ffffff">
+<div id="time">
+</div></font></strong>
+
+<h3>welcome! to David Namene Ebooks ;)</h3>
+<h1>Let's do it !</h1>
+
+
+<form action="" method="get" class="online-form">
+<input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+
+
+<button type="submit" class="form-control">Get started</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<marquee>👋👋👋  Hii! Buddies we are currently working on an update. We will soon come with the full content. We are extremely sorry for the inconveniences you are facing.  ♥️♥️♥️</marquee> 
+
+
+
+<!-- FEATURE 2-->
+<section id="feature" data-stellar-background-ratio="0.5">
+<div class="container">
+<div class="row">
+  <div class="c">
+    <button><a href="pdf/2318 CGR.pdf"> Download </a></button>
+</div>  
+</div>
+</div>
+</div>
+<div class="block">
+<div class="card">
+  <img src="images/DMS.png" alt="Avatar" style="width:250px; height: 250px;">
+  <div class="container">
+    <h2><b>Database Management System</b></h2> 
+    <p class="p">This book is for IT/CS students who are pursuing Degree or Diploma.</p> 
+    <p><b>Click this link to download the book</b></p>
+<div class="c">
+    <button><a href="pdf/3101 DBMS.pdf"> Download </a></button>
+</div>  
+</div>
+</div>
+</div>
+<div class="block">
+<div class="card">
+  <img src="images/DSU.png" alt="Avatar" style="width:250px; height: 250px;">
+  <div class="container">
+    <h2><b>Data Structures Using C </b></h2> 
+    <p class="p">This book is for IT/CS students who are pursuing Degree or Diploma.</p> 
+    <p><b>Click this link to download the book</b></p>
+<div class="c">
+    <button><a href="pdf/3103 DSU.pdf"> Download </a></button>
+<
+<h1>About us</h1>
+
+  	 	  
+<div class="card">
+<div class="box">
+<img src="./img/team_image.jpg" alt="image" />
+<h4>Nangolo Nicky Angula</h4>
+<h5>Creator</h5>
+<p>I am also your helper buddy and help you in any technical issue..We are trying hard to give you best content in pan-afrikan books.</p>
+</div>
+</div>
+
+</div>
+  	 	 
+  </section>
+
+
+
+<div class="col-md-offset-1 col-md-10 col-sm-12">
+<hr>
+<center><h2> "A mind needs its books as a sword needs its whetstone.if it is to keep its edge"</h2></center>
+</div>
+<hr>
+
+
+
+<!-- Extra suggestions-->
+<section id="extra" data-stellar-background-ratio="0.5">
+<div class="container">
+<div class="row">
+
+<div class="col-md-offset-1 col-md-10 col-sm-12">
+<div class="section-title">
+<h1> Suggestions </h1>
+</div>
+</div>
+
+<div class="col-md-offset-1 col-md-10 col-sm-12">
+<div class="brand-thumb">
+
+<div class="brand-title">
+<h2>PDF DRIVE</h2>
+<img src="./img/pdfdrive_logo.jpg">
+</div>
+
+<div class="brand-info">
+
+<p>PDF Drive is a free search engine which allows you to search, preview and download millions of PDF files into your devices.they are constantly scanning the world wide web to add PDF files to their database.PDF Drive library stays up-to-date, while continuously growing and offering you an enormous number of ebooks.</p>
+</div>
+
+<div class="brand-bottom">
+
+<span>PDF DRIVE</span>
+<a href="https://www.pdfdrive.com/" class="section-btn brand-btn">visit site</a>
+</div>
+</div>
+</div>
+<hr>
+
+<div class="col-md-offset-1 col-md-10 col-sm-12">
+<div class="brand-thumb">
+
+<div class="brand-title">
+<h2>Afri Book Hub</h2>
+<img src="./img/help4u_logo.jpg">
+</div>
+
+<div class="brand-info">
+<p>Africas largest book library</p>
+</div>
+
+<div class="brand-bottom">
+                                   <span>Afri Book Hub</span>
+<a href="https://afribookhub.com/" class="section-btn brand-btn">visit site</a>
+</div>
+</div>
+</div>
+<hr>
+
+
+
+<div class="col-md-offset-1 col-md-10 col-sm-12">
+<div class="brand-thumb">
+
+<div class="brand-title">
+<h2>academia</h2>
+<img src="./img/tooplate_logo.jpg">
+</div>
+
+<div class="brand-info">
+                                   <p>Download 47 million pdf's for free on a range of topics</p>
+</div>
+                             
+                             
+<div class="brand-bottom">
+<span>Academia</span>
+<a href="https://www.academia.edu/" class="section-btn brand-btn">visit site</a>
+</div>
+</div>
+</div>
+<hr>
+
+
+
+</div>
+</div>
+</section> 
+
+
+
+<section id=heart>
+<center>
+<!-- LikeBtn.com BEGIN -->
+<span class="likebtn-wrapper" data-theme="drop" data-ef_voting="bounce" data-identifier="item_1" data-counter_count="true" data-popup_disabled="true" data-popup_position="bottom" data-popup_width="100" data-share_enabled="false" data-share_size="small" data-tooltip_like_show_always="true"></span>
+<script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+<!-- LikeBtn.com END -->
+</center>
+</section>
+
+
+
+
+
+<!-- CONTACT -->
+<section id="contact" data-stellar-background-ratio="0.5">
+<div class="container">
+<div class="row">
+
+<div class="col-md-offset-1 col-md-10 col-sm-12">
+<form id="contact-form" role="form" action="contact.php" method="post">
+  
+<div class="section-title">
+<h1>Say hello to us</h1>
+</div>
+
+<div class="col-md-4 col-sm-4">
+<input type="text" class="form-control" placeholder="Full name" name="name" required>
+</div>
+                              
+<div class="col-md-4 col-sm-4">
+<input type="email" class="form-control" placeholder="Your email" name="email" required>
+</div>
+
+<div class="col-md-12 col-sm-12">
+                                   <textarea class="form-control" rows="8" placeholder="Your message" name="message" required></textarea>
+</div>
+
+<div class="col-md-4 col-sm-4">
+<input type="submit" class="form-control" name="submit" value="Send Message">
+</div>
+
+
+</form>
+</div>
+
+</div>
+</div>
+</section>    
+
+
+
+<!-- FOOTER -->
+<footer id="footer" data-stellar-background-ratio="0.5">
+<div class="container">
+<div class="row">
+
+<div class="copyright-text col-md-12 col-sm-12">
+<div class="col-md-6 col-sm-6">
+
+<p>Copyright &copy; 2023 D-Namene Ebooks </p>
+</div>
+
+<div class="col-md-6 col-sm-6">
+
+<ul class="social-icon">
+
+<li><a href="https://chat.whatsapp.com/EAIPT77HJuFFtD68c0Km2T" class="fa fa-whatsapp" attr="whatsapp icon"></a></li>
+
+<li><a href="https://github.com/" class="fa fa-github"></a></li>
+
+<li><a href="https://telegram.org/" class="fa fa-telegram"></a></li>
+
+<li><a href="#feature" class="fa fa-cloud-download"></a></li>
+
+<li><a href="#heart" class="fa fa-heart"></a></li>
+
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+</footer>
+
+<!-- java script for web -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
